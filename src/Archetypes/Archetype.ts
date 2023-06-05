@@ -30,8 +30,8 @@ abstract class Archetype {
     this._instances += 1;
   }
 
-  // deve ter um método estático chamado createdRacesInstances, que retorna um number
-  static createdRacesInstances(): number {
+  // deve ter um método estático chamado createdArchetypeInstances, que retorna um number
+  static createdArchetypeInstances(): number {
     throw new Error('Not implemented');
   }
 
