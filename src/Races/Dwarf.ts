@@ -13,6 +13,7 @@ class Dwarf extends Race {
 
     // método newInstance da class Dwarf, vez que Dwarf é subclass
     // esse método incrementa o valor da variável instances
+    // instâncias criadas da classe Dwarf
     Dwarf.newInstance();
   }
 
@@ -22,6 +23,7 @@ class Dwarf extends Race {
 
   // implementar o método createdRacesInstances nas classes herdeiras;
   // quantidade de instância criada a partir da class estendida
+  // instâncias criadas da classe Dwarf
   static createdRacesInstances(): number {
     return this._instances;
   }
