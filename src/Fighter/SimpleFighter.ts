@@ -1,4 +1,3 @@
-// Crie uma interface chamada SimpleFighter
 interface SimpleFighter {
   lifePoints: number;
   strength: number;
