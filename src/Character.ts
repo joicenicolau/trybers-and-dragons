@@ -4,7 +4,6 @@ import Fighter, { SimpleFighter } from './Fighter';
 import Race, { Elf } from './Races';
 import getRandomInt from './utils';
 
-// A classe deve implementar a interface Fighter
 class Character implements Fighter {
   private _race: Race;
   private _archetype: Archetype;
