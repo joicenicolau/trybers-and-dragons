@@ -1,10 +1,13 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Trybers and Dragons
+
+Este projeto foi desenvolvido ao final da Seção 9 de Back-end da [Trybe](https://www.betrybe.com/), onde estudei **Programação Orientada a Objetos (POO)** e **SOLID** em **TypeScript**.
+
+Nele, utilizei **TypeScript** para implementar `classes`, `instâncias`, `atributos`, `métodos` e `objetos`. Aprimorei meus conhecimentos sobre `herança`, `abstração`, `encapsulamento` e `polimorfismo`, bem como a habilidade de criar e utilizar `interfaces` e realizar `composição`.
+
+## Descrição
+
+No mundo de Trybers and Dragons, tive a oportunidade de entender e construir raças, arquétipos, personagens e muito mais, tudo através da aplicação de `POO e SOLID`.
+
+
+![Captura de tela do Trybers and Dragons](https://github.com/joicenicolau/trybers-and-dragons/assets/112522719/7f015e0e-cd7d-44ff-9ca3-08959b591f7f)
+
