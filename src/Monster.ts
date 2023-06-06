@@ -3,7 +3,8 @@ import { SimpleFighter } from './Fighter';
 // A classe deve implementar a interface SimpleFighter
 class Monster implements SimpleFighter {
   // A classe Monster deve ter os atributos privados lifePoints e strength
-  private _lifePoints: number;
+  // refatorei com o protected para poder usar o lifePoints em Dragon.
+  protected _lifePoints: number;
   private _strength: number; 
 
   // inicializados em seu construtor

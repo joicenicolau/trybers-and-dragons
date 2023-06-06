@@ -24,9 +24,11 @@ class PVE extends Battle {
   fight(): number {
     // loop while que continua enquanto a batalha não estiver concluída
     while (!this.isBattleDone()) {
+      // o player ataca qualquer monstro ou lutador com vida, que o find encontra
       this.player.attack(this.getNextMonster());
       // uma personagem contra apenas um oponete ou uma legião deles.
       this.monsters.forEach((monster) => {
+        // enquanto tiver vida
         if (monster.lifePoints > 0) {
           monster.attack(this.player);
         }
@@ -35,6 +37,7 @@ class PVE extends Battle {
     return super.fight();
   }
 
+  // fiz o find separado por complexidade do lint
   // método retorna o próximo monstro ou lutador disponível para atacar
   // as pra não retornar do find nada diferente do esperado
   private getNextMonster(): Monster | Fighter | SimpleFighter {
